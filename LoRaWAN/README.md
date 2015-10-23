@@ -4,9 +4,9 @@ With this code the Nexus will send messages that will be accepted by the LoRaWAN
 This code is minimal code it only sends a message that will be accepted by the LoRaWAN network.
 The settings are:
 
-Channel 0 = 868,1 MHz
-Spreading factor = 7
-Full power
+- Channel 0 = 868,1 MHz
+- Spreading factor = 7
+- Full power
 
 This code will not:
 - Receive packages from a gateway
