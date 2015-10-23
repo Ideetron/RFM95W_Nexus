@@ -17,6 +17,6 @@ This code will not:
 # Hardware
 The Nexus board is fitted with an ATMEGA328P and a RFM95 module
 
-To adapt this code to other hardware change the LoRaWAN.h
+To adapt this code to other hardware change the LoRaWAN_V20.h
 
 From the DIO's only 0,1 and 5 are used
