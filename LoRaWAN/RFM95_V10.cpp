@@ -66,7 +66,7 @@ void RFM_Init()
   RFM_Write(0x39,0x34);
 
   RFM_Write(0x33,0x27);
-  RFM_Write(0x3B,0x19);
+  RFM_Write(0x3B,0x1D);
 
   //Set FIFO pointers
   //TX base adress
