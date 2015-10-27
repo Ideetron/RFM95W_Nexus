@@ -20,3 +20,9 @@ The Nexus board is fitted with an ATMEGA328P and a RFM95 module
 To adapt this code to other hardware change the LoRaWAN_V20.h
 
 From the DIO's only 0,1 and 5 are used
+
+#RFM92
+When the Nexus board is fitted with a RFM92 module replace the following files with the files from the RFM92 folder.
+- LoRaWAN.ino
+- RFM95_V10.cpp
+- RFM95_V10.h
