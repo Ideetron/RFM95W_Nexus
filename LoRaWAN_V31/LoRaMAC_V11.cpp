@@ -103,7 +103,7 @@ void LORA_Send_Data(unsigned char *Data, unsigned char Data_Length, unsigned int
 	unsigned char MIC[4];
 
 	//Unconfirmed data up
-	unsigned char Mac_Header = 0x80;
+	unsigned char Mac_Header = 0x40;
 
 	unsigned char Frame_Control = 0x00;
 	unsigned char Frame_Port = 0x01;
